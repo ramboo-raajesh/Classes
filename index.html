@@ -1,0 +1,161 @@
+<!--THIS WEBSITE IS CREATED AND UNDER MAINTAINANCE BY RAAJESH -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Social Science</title>
+	<style>
+		/* Set the background video */
+		video {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			z-index: -2;
+		}
+
+		/* Add a gradient overlay on top of the video */
+		.overlay {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+			z-index: -1;
+		}
+
+		/* Style the header */
+		header {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 20px;
+			background: linear-gradient(to right, #cc2b5e, #753a88);
+			color: #fff;
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+			border-radius: 30px;
+			font-family: Arial, San-serif;
+			z-index:-1;
+		}
+		/* Style the footer */
+		footer {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 20px;
+			background: linear-gradient(to right, #cc2b5e, #753a88);
+			color: #fff;
+			font-size: 13px;
+			text-transform: uppercase;
+			border-radius:30px;
+			font-style: italic;
+			font-family: Arial, Sans-serif;
+			color:white;
+		}
+		footer a {
+			text-decoration:none;
+			font-style:italic;
+			font-family: Arial, Sans-serif;
+		}
+
+		/* Style the buttons */
+		.buttons {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+			z-index: -1;
+		}
+
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			margin: 20px;
+			background: linear-gradient(to right, #cc2b5e, #753a88);
+			color: #fff;
+			font-size: 18px;
+			font-weight: bold;
+			text-transform: uppercase;
+			border: none;
+			border-radius: 50px;
+			cursor: pointer;
+			transition: background-color 0.3s ease-out;
+		}
+		.buttons .button a {
+			text-decoration: none;
+			color:white;
+		}
+
+		/* Add hover animation on buttons */
+		.button:hover {
+			background: linear-gradient(to right, #fc5185, #ff764a);
+			transform: scale(1.1);
+		}
+		.buttons .des {
+			font-size:50px;
+			margin:20px;
+			color:white;
+			font-family: Arial, Sans-serif;
+			font-weight: bold;
+		}
+		.quote {
+			text-align: center;
+			margin:5px;
+			color: white;
+			font-weight: bold;
+			font-style: italic;
+			font-family: Arial, Sans-serif;
+		}
+		.quote .author {
+			text-align: right;
+			margin:5px;
+			color: white;
+			font-weight: bold;
+			font-style: italic;
+			font-family: Arial, Sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<!-- Add the video element and the overlay -->
+	<video autoplay loop muted>
+		<source src="pexels-pressmaster-3209663-3840x2160-25fps.mp4" type="video/mp4">
+		<source src="pexels-olia-danilevich-4487965-640x360-25fps.mp4" type="video/mp4">
+	</video>
+	<div class="overlay"></div>
+
+	<!-- Add the header -->
+	<header>
+		<h1>welcome</h1>
+	</header>
+	<div class = "quote">
+		<h3>Social science is, in essence, the pursuit of human happiness through understanding the complexities of human interaction.<br><br><div class = "author"> - James S. Coleman</div></h3>
+	</div>
+
+	<!-- Add the buttons -->
+	<div class="buttons">
+		<div class = "des">7th Standard Social Science</div>
+		<button class="button"><a href = "https://drive.google.com/drive/folders/1eteEUGtBylbriivvDLdAu24eZ55ajYgn">View Material</a></button>
+		<div class = "des">8th Standard Social Science</div>
+		<button class="button"><a href = "https://drive.google.com/drive/folders/1evEWGA25K-O8FXnFZODjAI7BctCqMMDC">View Material</a></button>
+		
+		<!--
+		Buttons reserved for future updates...
+		
+		<div class = "des">8th Standard Social Science</div>
+		<button class="button">Button 4</button>
+		<div class = "des">This is for</div>
+		-->
+	</div>
+
+	<!-- Add the footer -->
+	<footer>
+		<p><small>For further doubts and clarifications <a href = "mailto:brinthadevi100@gmail.com">Contact Me</a></small></p>
+	</footer>
+</body>
+</html>
